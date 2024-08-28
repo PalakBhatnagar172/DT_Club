@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { Menu, X, MapPin } from 'lucide-react'
-
+import c1 from '../assets/c1.png'
 
 
 export function ContactPageOne() {
@@ -56,7 +56,7 @@ export function ContactPageOne() {
             <img
               alt="Contact us"
               className="hidden max-h-full w-full rounded-lg object-cover lg:block"
-              src="src\assets\c1.png"
+              src={c1}
             />
           </div>
         </div>

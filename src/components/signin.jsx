@@ -63,7 +63,7 @@ export function SignInOne() {
           </div>
 
           <h2 className="mt-8 text-3xl font-bold leading-tight text-black sm:text-4xl lg:mt-12 lg:text-5xl">
-            Find from <span className="border-b-8 border-yellow-300 text-red-600">5,482</span> your team
+            Find from <span className="border-b-8 border-yellow-300 text-red-600">200+</span> your team
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base text-gray-600 md:mt-10 lg:text-xl">
             Find your teammate for Smart India Hackathon 2024 by registering on the link below.

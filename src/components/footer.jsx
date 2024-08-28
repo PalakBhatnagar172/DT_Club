@@ -1,5 +1,5 @@
 import React from 'react'
-
+import l1_t from '../assets/l1_t.png'
 export function FooterThree() {
   return (
     <section className="relative overflow-hidden bg-white py-8">
@@ -9,7 +9,7 @@ export function FooterThree() {
           <div className="w-auto p-8">
             <a href="#">
               <div className="inline-flex items-center">
-                <img src="src\assets\l1.svg" alt="" srcset="" className='h-[40px] w-[46px]'/>
+                <img src={l1_t} alt="" srcset="" className='h-[40px] w-[46px]'/>
                 <span className="ml-4 text-lg font-bold"><span className='text-red-600'>Design</span> Thinking Club</span>
               </div>
             </a>

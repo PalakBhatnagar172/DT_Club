@@ -1,5 +1,6 @@
 import React from 'react'
 import { Menu, X } from 'lucide-react'
+import a2 from '../assets/a2.png'
 
 const posts = [
   {
@@ -143,7 +144,7 @@ export function BlogPageOne() {
         </div>
         <div className="md:mt-o mt-10 w-full  object-contain">
           <img
-            src="src\assets\a2.png"
+            src={a2}
             alt="Getting Started"
             className="rounded-lg"
           />

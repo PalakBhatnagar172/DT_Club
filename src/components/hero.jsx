@@ -1,5 +1,6 @@
 import React from 'react'
 import l1_t from "../assets/l1_t.png"
+import h1 from "../assets/h1.png"
 
 export function HeroOne() {
   return (
@@ -42,7 +43,7 @@ export function HeroOne() {
         <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
           <img
             className="aspect-[3/2] bg-gray-50 object-contain lg:aspect-[4/3] lg:h-[700px] xl:aspect-[16/9]"
-            src="src\assets\h1.png"
+            src={h1}
             alt=""
           />
         </div>
