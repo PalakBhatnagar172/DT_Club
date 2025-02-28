@@ -1,9 +1,33 @@
 'use client'
-
-import React from 'react'
-import { Menu, X, MapPin } from 'lucide-react'
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 import s2 from '../assets/s2.jpeg'
 import a2 from '../assets/a2.png'
+import priyanshi from "../assets/images/priyanshi.jpg";
+import Toshak from "../assets/images/Toshak.jpeg";
+// import varun from "../assets/images/varun.jpeg";
+import aakash from "../assets/images/aakash.jpg";
+import Sanat from "../assets/images/sanat.jpg";
+// import ankush from "../assets/images/ankush.jpg";
+import prakhar from "../assets/images/prakhar.jpg";
+
+import rishita from "../assets/images/rishita.jpg";
+import anubhav from "../assets/images/anubhav (2).jpg";
+import palak from "../assets/images/palak (2).jpg";
+import swati from "../assets/images/swati.jpg";
+import divya from "../assets/images/divya.jpg";
+import abhinav from "../assets/images/abhinav (2).jpg";
+import siddhi from "../assets/images/siddhi.jpg";
+// import shakti from "../assets/images/shakti.jpeg";
+import palaks from "../assets/images/palaks.jpeg";
+import nandani from "../assets/images/nandani.jpg";
+import saksham from "../assets/images/saksham (2).jpg";
+// import divyanshu from "../assets/images/divyanshu.jpeg";
+// import ansh from "../assets/images/ansh.jpeg";
+import abhay from "../assets/images/abhay.jpg";
+import madhvendra from "../assets/images/madhvendra.jpg";
+import mahi from "../assets/images/mahi.jpeg";
+
 
 const locations = [
   {
@@ -25,53 +49,135 @@ const locations = [
 
 const users = [
   {
+
+    name: 'Madhvendra Singh',
+    image:madhvendra,
+    position: 'President',
+  },
+  {
+
+    name: 'Mahi Chauhan',
+    image:mahi,
+    position: 'President',
+  },
+
+  {
     name: 'Priyanshi',
-    image:
-      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=600&w=600&ixid=eyJhcHBfaWQiOjE3Nzg0fQ',
-    position: 'Designer Head',
+    image:priyanshi,
+    position: 'Designing lead',
+  },
+
+  {
+    name: 'Toshak  Bhat',
+    image:Toshak,
+    position: 'Technical lead',
+  },
+  // {
+  //   name: 'Varun Pandey',
+  //   image:Varun,
+  //   position: 'Social media lead',
+  // },
+  {
+    name: 'Abhay Singh',
+    image:abhay,
+    position: 'Social media lead',
   },
   {
-    name: 'Aman Varshney',
-    image:
-      'https://images.generated.photos/vBRCiI_3UM4l40sU8s7fCwbJwzDwRTGpebzPkfHFsY4/rs:fit:512:512/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODgyMTAyLmpwZw.jpg',
-    position: 'Technical Head',
+    name: 'Abhay Trivedi',
+    image:abhay,
+    position: 'Social media lead',
+  },
+
+  {
+    name: 'Aakash',
+    image:aakash,
+    position: 'Research lead',
   },
   {
-    name: 'Toshak Bhat',
-    image:
-      'https://images.unsplash.com/photo-1549351512-c5e12b11e283?q=80&fm=jpg&crop=faces&fit=crop&h=600&w=600',
-    position: 'Technical Head',
+    name: 'Sanat Sharma',
+    image:Sanat,
+    position: 'Research lead',
   },
-  {
-    name: 'Varun Pandey',
-    image:
-      'https://images.unsplash.com/photo-1485960994840-902a67e187c8?q=80&fm=jpg&crop=faces&fit=crop&h=600&w=600',
-    position: 'Social Media Head',
-  },
-  {
-    name: 'Aakash mishra',
-    image:
-      'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=600&w=600',
-    position: 'Research Head',
-  },
-  {
-    name: 'Sanat',
-    image:
-      'https://images.generated.photos/lEhPUYYfYr9IOt13WZZGf2zbXZnCYdU1wUp7gcu_99c/rs:fit:512:512/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Njg5NTQ5LmpwZw.jpg',
-    position: 'Research Head',
-  },
-  {
-    name: 'Ankush',
-    image:
-      'https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    position: 'Marketing Head',
-  },
+  // {
+  //   name: 'Ankush Chaudhary',
+  //   image:Ankush,
+  //   position: 'Marketing lead',
+  // },
   {
     name: 'Prakhar Mishra',
-    image:
-      'https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    position: 'Event Management Head',
+    image:prakhar,
+    position: 'Event Management lead',
   },
+  {
+    name: 'Saksham Patel',
+    image:saksham,
+    position: 'Event Capturing Team',
+  },
+  {
+    name: 'Rishita Rai',
+    image:rishita,
+    position: 'Event Management Co-lead',
+  },
+  {
+    name: 'Anubhav Singh',
+    image: anubhav,
+    position: 'Technical Co-lead',
+  },
+  {
+    name: 'Palak Bhatnagar',
+    image: palak,
+    position: 'Technical Co-lead',
+  },
+  {
+    name: 'Swati Jha',
+    image:swati,
+    position: 'Marketing Co-lead',
+  },
+  {
+    name: 'Divya Pratap',
+    image:divya,
+    position: 'Marketing Co-lead',
+  },
+  {
+    name: 'Abhinav',
+    image:abhinav,
+    position: 'Marketing Co-lead',
+  },
+  {
+    name: 'Siddhi Arora',
+    image:siddhi,
+    position: 'Research Co-lead',
+  },
+  // {
+  //   name: 'Shakti Singh',
+  //   image:shakti,
+  //   position: 'Research Co-lead',
+  // },
+  {
+    name: 'Palak Srivastava',
+    image:palaks,
+    position: 'Social-media Co-lead',
+  },
+  {
+    name: 'Nandani',
+    image:nandani,
+    position: 'Social-media Co-lead',
+  },
+
+
+  // {
+  //   name: 'Divyanshu Singh',
+  //   image:divyanshu,
+  //   position: 'Video Editing team',
+  // },
+  // {
+  //   name: 'Ansh Pratap Singh',
+  //   image:ansh,
+  //   position: 'Video Editing team',
+  // },
+
+
+
   
 ]
 
