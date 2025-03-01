@@ -27,6 +27,7 @@ import saksham from "../assets/images/saksham (2).jpg";
 import abhay from "../assets/images/abhay.jpg";
 import madhvendra from "../assets/images/madhvendra.jpg";
 import mahi from "../assets/images/mahi.jpeg";
+import abhay2 from "../assets/images/abhay2.jpg";
 
 
 const locations = [
@@ -58,7 +59,12 @@ const users = [
 
     name: 'Mahi Chauhan',
     image:mahi,
-    position: 'President',
+    position: 'Vice President',
+  },
+  {
+    name: 'Prakhar Mishra',
+    image:prakhar,
+    position: 'Vice President',
   },
 
   {
@@ -84,7 +90,7 @@ const users = [
   },
   {
     name: 'Abhay Trivedi',
-    image:abhay,
+    image:abhay2,
     position: 'Social media lead',
   },
 
@@ -103,11 +109,7 @@ const users = [
   //   image:Ankush,
   //   position: 'Marketing lead',
   // },
-  {
-    name: 'Prakhar Mishra',
-    image:prakhar,
-    position: 'Event Management lead',
-  },
+
   {
     name: 'Saksham Patel',
     image:saksham,
