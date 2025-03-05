@@ -37,9 +37,9 @@ export function BlogPageTwo() {
                                         2.0
                                     </h4>
                                     <p className="max-w-xl text-lg text-gray-500">
-                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                                        officia consequat duis enim velit mollit xercitation veniam consequat sunt
-                                        nostrud amet.
+                                        think different 2.0 is a event where you can show your talent and 
+                                        creativity. This event is for all the students who are interested in
+                                        coding and programming.
                                     </p>
                                 </a>
                             </div>

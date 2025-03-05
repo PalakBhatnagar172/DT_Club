@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export function FaqFour() {
   return (
@@ -9,7 +10,7 @@ export function FaqFour() {
             <span className='text-red-600'>Frequently</span> Asked Questions
           </h2>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-600 lg:mx-auto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, assumenda
+            Ask whatever you want to know about the Design Thinking Club, and we&apos;ll be happy to answer.
           </p>
         </div>
         <div className="mx-auto mt-8 grid max-w-3xl grid-cols-1 gap-6 md:mt-16 md:grid-cols-2">
@@ -52,9 +53,12 @@ export function FaqFour() {
         </div>
         <p className="mt-10 text-center text-gray-600">
           Can&apos;t find what you&apos;re looking for?{' '}
-          <a href="#" title="" className="text-red-600 font-semibold hover:underline">
-            Contact us
-          </a>
+          <Link
+          to={"/contact"}>
+            <a href="#" title="" className="text-red-600 font-semibold hover:underline">
+              Contact us
+            </a>
+          </Link>
         </p>
       </div>
     </section>

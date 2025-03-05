@@ -1,34 +1,9 @@
 'use client'
-// eslint-disable-next-line no-unused-vars
-import React from 'react';
+
+import React from 'react'
+import { Menu, X, MapPin } from 'lucide-react'
 import s2 from '../assets/s2.jpeg'
 import a2 from '../assets/a2.png'
-import priyanshi from "../assets/images/priyanshi.jpg";
-import Toshak from "../assets/images/Toshak.jpeg";
-// import varun from "../assets/images/varun.jpeg";
-import aakash from "../assets/images/aakash.jpg";
-import Sanat from "../assets/images/sanat.jpg";
-// import ankush from "../assets/images/ankush.jpg";
-import prakhar from "../assets/images/prakhar.jpg";
-
-import rishita from "../assets/images/rishita.jpg";
-import anubhav from "../assets/images/anubhav (2).jpg";
-import palak from "../assets/images/palak (2).jpg";
-import swati from "../assets/images/swati.jpg";
-import divya from "../assets/images/divya.jpg";
-import abhinav from "../assets/images/abhinav (2).jpg";
-import siddhi from "../assets/images/siddhi.jpg";
-// import shakti from "../assets/images/shakti.jpeg";
-import palaks from "../assets/images/palaks.jpeg";
-import nandani from "../assets/images/nandani.jpg";
-import saksham from "../assets/images/saksham (2).jpg";
-// import divyanshu from "../assets/images/divyanshu.jpeg";
-// import ansh from "../assets/images/ansh.jpeg";
-import abhay from "../assets/images/abhay.jpg";
-import madhvendra from "../assets/images/madhvendra.jpg";
-import mahi from "../assets/images/mahi.jpeg";
-import abhay2 from "../assets/images/abhay2.jpg";
-
 
 const locations = [
   {
@@ -77,6 +52,10 @@ const users = [
     name: 'Toshak  Bhat',
     image:Toshak,
     position: 'Technical lead',
+
+    name: 'Madhvendra',
+    image: madhvendra,
+    position: 'President',
   },
   // {
   //   name: 'Varun Pandey',
@@ -87,6 +66,10 @@ const users = [
     name: 'Abhay Singh',
     image:abhay,
     position: 'Social media lead',
+  {
+    name: 'Priyanshi',
+    image: priyanshi,
+    position: 'Designing lead',
   },
   {
     name: 'Abhay Trivedi',
@@ -103,6 +86,9 @@ const users = [
     name: 'Sanat Sharma',
     image:Sanat,
     position: 'Research lead',
+    name: 'Toshak  Bhat',
+    image: Toshak,
+    position: 'Technical lead',
   },
   // {
   //   name: 'Ankush Chaudhary',
@@ -119,6 +105,10 @@ const users = [
     name: 'Rishita Rai',
     image:rishita,
     position: 'Event Management Co-lead',
+  {
+    name: 'Varun Pandey',
+    image: Varun,
+    position: 'Social media lead',
   },
   {
     name: 'Anubhav Singh',
@@ -129,6 +119,9 @@ const users = [
     name: 'Palak Bhatnagar',
     image: palak,
     position: 'Technical Co-lead',
+    name: 'Abhay Singh',
+    image:abhay,
+    position: 'Social media lead',
   },
   {
     name: 'Swati Jha',
@@ -149,6 +142,9 @@ const users = [
     name: 'Siddhi Arora',
     image:siddhi,
     position: 'Research Co-lead',
+    name: 'Aakash',
+    image: Akash,
+    position: 'Research lead',
   },
   // {
   //   name: 'Shakti Singh',
@@ -164,6 +160,10 @@ const users = [
     name: 'Nandani',
     image:nandani,
     position: 'Social-media Co-lead',
+  {
+    name: 'Ankush Chaudhary',
+    image: Ankush,
+    position: 'Marketing lead',
   },
 
 
@@ -181,6 +181,80 @@ const users = [
 
 
   
+  {
+    name: 'Prakhar Mishra',
+    image: prakhar,
+    position: 'Event Management lead',
+  },
+  {
+    name: 'Rishita Rai',
+    image: rishita,
+    position: 'Event Management Co-lead',
+  },
+  {
+    name: 'Anubhav Singh',
+    image: anubhav,
+    position: 'Technical Co-lead',
+  },
+  {
+    name: 'Palak Bhatnagar',
+    image: Palak,
+    position: 'Technical Co-lead',
+  },
+  {
+    name: 'Swati Jha',
+    image: swati,
+    position: 'Marketing Co-lead',
+  },
+  {
+    name: 'Divya Pratap',
+    image: divya,
+    position: 'Marketing Co-lead',
+  },
+  {
+    name: 'Abhinav',
+    image: abhinav,
+    position: 'Marketing Co-lead',
+  },
+  {
+    name: 'Siddhi Arora',
+    image: siddhi,
+    position: 'Research Co-lead',
+  },
+  {
+    name: 'Shakti Singh',
+    image: shakti,
+    position: 'Research Co-lead',
+  },
+  {
+    name: 'Palak Srivastava',
+    image: Palaks,
+    position: 'Social-media Co-lead',
+  },
+  {
+    name: 'Nandani',
+    image: nandani,
+    position: 'Social-media Co-lead',
+  },
+  {
+    name: 'Arya Kumari',
+    image: arya,
+    position: 'Outreach Co-lead',
+  },
+  {
+    name: 'Saksham Patel',
+    image: saksham,
+    position: 'Event Capturing Team',
+  },
+  {
+    name: 'Ansh Pratap Singh',
+    image: ansh,
+    position: 'Video Editing team',
+  },
+
+
+
+
 ]
 
 export function AboutPageOne() {
@@ -257,6 +331,8 @@ export function AboutPageOne() {
             </div>
           ))}
         </div>
+        <p className="my-8 text-3xl font-bold text-gray-900 md:text-4xl"><span className='text-red-600'>Technical</span>  Team</p>
+        <CardComponent/>
         {/* Hiring Banner */}
         <div className="flex flex-col items-center gap-x-4 gap-y-4 py-16 md:flex-row">
           <div className="space-y-6">
@@ -275,12 +351,15 @@ export function AboutPageOne() {
               insights and set the stage for your future career in
               tech!
             </p>
-            <button
-              type="button"
-              className="rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-            >
-              Join Now
-            </button>
+            <Link
+              to="https://uc64l098ghp.typeform.com/to/shvofxtd">
+              <button
+                type="button"
+                className="rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              >
+                Join Now
+              </button>
+            </Link>
           </div>
           <div className="md:mt-o mt-10 w-full  object-contain">
             <img
@@ -292,7 +371,7 @@ export function AboutPageOne() {
         </div>
       </div>
       <hr className="mt-6" />
-      
+
     </div>
   )
 }

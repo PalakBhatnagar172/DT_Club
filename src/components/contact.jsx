@@ -3,6 +3,7 @@
 import React from 'react'
 import { Menu, X, MapPin } from 'lucide-react'
 import c1 from '../assets/c1.png'
+import { Link } from 'react-router-dom'
 
 
 export function ContactPageOne() {
@@ -22,8 +23,7 @@ export function ContactPageOne() {
             <span className='text-red-600'>Love</span> to hear from you
           </p>
           <p className="mx-auto max-w-4xl text-center text-base text-gray-600 md:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore veritatis voluptates
-            neque itaque repudiandae sint, explicabo assumenda quam ratione placeat?
+            We are always here to help you. Feel free to contact us anytime.
           </p>
         </div>
         <div className="mx-auto max-w-7xl py-12 md:py-24">
@@ -40,14 +40,22 @@ export function ContactPageOne() {
                     <img width="50" height="50" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1" />
                     <span className="flex flex-col">
                       <span className="text-sm font-medium text-gray-900">Instagram</span>
-                      <span className="text-sm font-medium text-gray-500">@DTCLUB_SFS</span>
+                      <Link to={"https://www.instagram.com/dtclub_sfs?igsh=eHVxa2cwa295MjR4"}><span className="text-sm font-medium text-gray-500">@DTCLUB_SFS</span></Link>
                     </span>
                   </div>
                   <div className="flex items-center space-x-2 m-2">
                   <img width="50" height="50" src="https://img.icons8.com/ios/50/linkedin.png" alt="linkedin"/>
                     <span className="flex flex-col">
                       <span className="text-sm font-medium text-gray-900">Linkedin</span>
-                      <span className="text-sm font-medium text-gray-500">@DTCLUB_SFS</span>
+                      <Link to={"https://www.linkedin.com/company/design-thinking-clubdt/?lipi=urn%3Ali%3Apage%3Ad_flagship3_company%3BeFxE5e9zTVuKnD7u9sY1VQ%3D%3D"}><span className="text-sm font-medium text-gray-500">@design-thinking-clubdt</span></Link>
+                    </span>
+                  </div>
+                  <div className="flex items-center space-x-2 m-2">
+                  <img width="50" height="50" src="https://img.icons8.com/?size=100&id=124218&format=png&color=000000" alt="email"/>
+                    <span className="flex flex-col">
+                      <span className="text-sm font-medium text-gray-900">Email</span>
+                      <Link to={""}><span className="text-sm font-medium text-gray-500">dtclubsfs5@gmail.com</span></Link>
+                      <Link to={""}><span className="text-sm font-medium text-gray-500">dtclub@niet.co.in</span></Link>
                     </span>
                   </div>
                 </div>
